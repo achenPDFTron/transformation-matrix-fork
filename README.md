@@ -8,6 +8,9 @@
 <!-------------------------------------------------------------------->
 <!-------------------------------------------------------------------->
 
+Informally forked and modified from https://github.com/achenPDFTron/transformation-matrix-fork
+Adjusted webpack and babel so that it creates minified file that works in IE11.
+
 # transformation-matrix
 Javascript isomorphic 2D affine transformations written in ES6 syntax. Manipulate transformation matrices with this totally tested library!
 
