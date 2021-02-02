@@ -7,6 +7,7 @@ module.exports = function (env) {
     mode: 'production',
     entry: {
       TransformationMatrix: path.resolve(__dirname, 'src', 'index.js')
+      // TransformationMatrix: [ 'core-js/stable', path.resolve(__dirname, 'src', 'index.js') ]
     },
     output: {
       path: path.join(__dirname, 'build-umd'),
